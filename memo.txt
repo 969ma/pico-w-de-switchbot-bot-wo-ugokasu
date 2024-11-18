@@ -1,5 +1,6 @@
 ・全般
-ble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 1)をble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 0)にすると、_IRQ_GATTC_WRITE_DONEが呼ばれなくなる
+ble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 1)をble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 0)にすると、_IRQ_GATTC_WRITE_DONEが呼ばれなくなる。
+詳しくは、https://micropython-docs-ja.readthedocs.io/ja/v1.16ja/library/ubluetooth.html#ubluetooth.BLE.gattc_write
 
 ・main.py
 バグ
