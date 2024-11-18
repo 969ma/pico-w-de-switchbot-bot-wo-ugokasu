@@ -1,0 +1,6 @@
+・全般
+ble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 1)をble.gattc_write(conn_handle, valueHandleWrite, b"\x57\x01\x00", 0)にすると、_IRQ_GATTC_WRITE_DONEが呼ばれなくなる
+
+・main.py
+バグ
+botを発見したにもかかわらず、接続できないとプログラムが終了しない。
