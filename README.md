@@ -1,5 +1,5 @@
 # picoW-de-switchbot-bot-wo-ugokasu
-picoWのMicroPythonを利用してSwitchbot(bot)を動かすためのプログラム
+Raspberry Pi Pico WでMicroPythonを使用してSwitchBot（Bot）を動かすプログラム
 
 
 # メモ
